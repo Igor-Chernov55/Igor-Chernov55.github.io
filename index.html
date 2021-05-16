@@ -1,1027 +1,247 @@
 <!DOCTYPE html>
-<html lang="auto">
+<html class="no-js" lang="auto">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ЭКОЛИГА</title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/bootstrap.css">
-    <link rel="stylesheet" href="style/swiper-bundle.css">
-    <link rel="stylesheet" href="style/fm.revealator.jquery.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <meta charset="utf-8">
+    <title>Портфолио</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
 </head>
-<body>
-  <header>
-    <div class="header-laptop">
-      <div class="d-flex justify-content-center align-items-center">
-      <button class="btn order-call order-call-laptop">ЗАКАЗТЬ ЗВОНОК</button>  
-      <a href="index.html">
-        <img class="image-logo-mobile py-2" src="img/image-logo/header-logo-desktop.png"  alt="Логотип">
-      </a>  
-      <button class="btn order-call order-call-laptop-last">Узнать стоимость</button>            
-      </div>
 
+<!-- Прелоадер -->
+<body id="top" class="ss-preload">
 
-      <div class="navigation-mobile py-1 d-flex justify-content-center">
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+<!-- //// -->
 
-        <nav>
-         <div class="d-flex">
-        
-           <!-- button --->
-        <div class="button button-laptop">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-          </div>     
-          <a class="contacts-header contacts-laptop contacts--message " href="mailto:ecoliga@gmail.com">ecoliga@gmail.com</a>
-          <a class="contacts-header  contacts--call" href="tell:8 (800) 188 18 18">8 (800) 188 18 18</a>
-     </div>
-        
-        <!-- navbar menu -->
-        <div class='menu'>
-        
-          <nav>
-        
-            <ul>
-              <li>
-                <a href='#' data-class='home_is_visible '>Промышленные отходы </a>
-              </li>
-              <li>
-                <a href='#' data-class='aboutus_is_visible'>Пищевые отходы</a>
-              </li>
-              <li class="dropdown">
-
-                  <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                    Услуги
-                  </a>
-
-                  <ul class="dropdown-menu dropdown-menu-header" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-4.html">Обеззараживание</a></li>
-                    <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-5.html">Транспортировка</a></li>
-                    <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-6.html">Утилизация</a></li>
-                    <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-7.html">Сбор отходов</a></li>
-                    <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-8.html">Обработка</a></li>
-                    <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-9.html">Переработка отходов</a></li>
-                    <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-10.html">Накопление</a></li>
-                  </ul>
-                
-              </li>
-              <li>
-                <a href='#' data-class='contactus_is_visible '>Сервисы</a>
-              </li>
-              <li>
-                <a href='#' data-class='contactus_is_visible '>Блог</a>
-              </li>
-              <li>
-                <a href='#' data-class='contactus_is_visible '>О компании</a>
-              </li>
-              <li>
-                <a href='#' data-class='contactus_is_visible '>Контакты</a>
-              </li>
-            </ul>
-        
-          </nav>
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#hero">Главная</a></li>
+                    <li><a class="smoothscroll" href="#about">Обо мне</a></li>
+                    <li><a class="smoothscroll" href="#resume">Стэк</a></li>
+                    <li><a class="smoothscroll" href="#portfolio">Мои работы</a></li>
+                    <li><a class="smoothscroll" href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
         </div>
-        </nav>
-              </div>
-    </div>
-<div class="header-mobile">
-<div class="">
-  <div class="d-flex justify-content-between p-3 align-items-center header-bottom">
-  <a href="ndex.html"><img class="image-logo-mobile me-3" src="img/image-logo/Logo-header.png"  alt="Логотип"></a>  
-  <p class="header-mobile-text ">Утилизация отходов на высшем уровне
-    Проффесиональный подход с 2007 года</p>
-    </div>
-    <nav class="p-3 d-flex justify-content-between">
-      <a class="header-text--call nav-link-text" href="tell:8 (800) 188 18 18">8 (800) 188 18 18</a>
-      <a href=""><img src="img/icons/icons-header/Login.png" alt="Личный кабинет"></a>
-    </nav>
-    <div class="navigation-mobile">
-
-
-
-<nav>
-<div class="price-nav-section mb-2 d-flex justify-content-between align-items-center">
- <!-- button --->
-<div class="button ">
-<span class="line"></span>
-<span class="line"></span>
-<span class="line"></span>
-</div>
-
-<a class="question-price">Узнать стоимость</a>
-
-</div>
-
-<!-- navbar menu -->
-<div class='menu'>
-
-<nav>
-
-  <ul>
-    <li>
-      <a href='#' data-class='home_is_visible '>Промышленные отходы </a>
-    </li>
-    <li>
-      <a href='#' data-class='aboutus_is_visible'>Пищевые отходы</a>
-    </li>
-    <li>
-      <div class="dropdown">
-        <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton-1" data-bs-toggle="dropdown" aria-expanded="false">
-          Услуги
+        
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
         </a>
-        
-        <ul class="dropdown-menu dropdown-menu-header" aria-labelledby="dropdownMenuButton-1">
-          <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-4.html">Обеззараживание</a></li>
-          <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-5.html">Транспортировка</a></li>
+    </header> 
 
-          <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-6.html">Утилизация</a></li>
-          <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-7.html">Сбор отходов</a></li>
-          <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-8.html">Обработка</a></li>
-          <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-9.html">Переработка отходов</a></li>
-          <li><a class="dropdown-item dropdown-item-mobile" href="services-pages/service-page-10.html">Накопление</a></li>
-        </ul>
-      </div>
-    </li>
-    <li>
-      <a href='#' data-class='contactus_is_visible '>Сервисы</a>
-    </li>
-    <li>
-      <a href='#' data-class='contactus_is_visible '>Блог</a>
-    </li>
-    <li>
-      <a href='#' data-class='contactus_is_visible '>О компании</a>
-    </li>
-    <li>
-      <a href='#' data-class='contactus_is_visible '>Контакты</a>
-    </li>
-  </ul>
+    <section id="hero" class="s-hero target-section">
 
-</nav>
-</div>
-</nav>
-    </div>
-</div>
-</div>
+        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
 
+        <div class="row s-hero__content">
+            <div class="column">
 
-    <div class="header-bottom">
-    
-      <nav class="navbar-up container-navbar d-flex first-navbar justify-content-center navbar-expand-lg navbar-light">
-          <div class="d-flex aligh-items-center">
-            <a href="index.html"><img class="image-logo" src="img/image-logo/Logo-header.png"  alt="Логотип"></a>  
-            <div class="collapse navbar-collapse" id="navbarNav">
-                  <button class="btn order-call">ЗАКАЗТЬ ЗВОНОК</button>                
-              <ul class="navbar-nav">
-                <li class="nav-item-up">
-                  <a class="nav-link-text header-text--message" href="mailto:ecoliga@gmail.com">ecoliga@gmail.com</a>
-                </li>
-                <li class="nav-item-up header-text--call">
-                  <a class="nav-link-text" href="tell:8 (800) 188 18 18">8 (800) 188 18 18</a>
-                </li>
-                <li class="nav-item-up header-text--login">
-                  <a class="nav-link-text" href="#">Кабинет</a>
-                </li>
-              </ul>
+                <div class="s-hero__content-about">
+
+                    <h1>Привет <br> я Игорь Чернов</h1>
+
+                    <h3>
+                    Веду разработку сайтов <span>(верстальщик)</span> , а так-же создаю интерфейс к ним, с позиции <span>Front-end (junior)</span> <br> 
+                    Расскажу  <a class="smoothscroll" href="#about">о себе</a>.
+                    </h3>
+
+                </div>
+
             </div>
-          </div>
-        </nav>
+        </div> 
 
-</div>
-<div class="header-bottom">
-        <nav class="navbar-down container-xxl second-navbar navbar-expand-lg navbar-light">
-          <div class="">
-            <div class="collapse navbar-collapse d-felx justify-content-center">
-              <ul class="navbar-nav">
-                <li class="nav-item nav-text-down">
-                  <a class="nav-link-text" aria-current="page" href="#">Промышленные отходы</a>
-                </li>
-                <li class="nav-item nav-text-down">
-                  <a class="nav-link-text" href="#">Пищевые отходы</a>
-                </li>
-                <li class="nav-item nav-text-down">
-                  <div class="dropdown">
-                    <a class="btn btn-outline-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                      Услуги
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-header" aria-labelledby="dropdownMenuButton">
-                      <li><a class="dropdown-item" href="services-pages/service-page-4.html">Обеззараживание</a></li>
-                      <li><a class="dropdown-item" href="services-pages/service-page-5.html">Транспортировка</a></li>
-                      <li><a class="dropdown-item" href="services-pages/service-page-6.html">Утилизация</a></li>
-                      <li><a class="dropdown-item" href="services-pages/service-page-7.html">Сбор отходов</a></li>
-                      <li><a class="dropdown-item" href="services-pages/service-page-8.html">Обработка</a></li>
-                      <li><a class="dropdown-item" href="services-pages/service-page-9.html">Переработка отходов</a></li>
-                      <li><a class="dropdown-item" href="services-pages/service-page-10.html">Накопление</a></li>
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                </span>
+                <span class="scroll-text">Обо мне</span>
+            </a>
+        </div> 
+
+    </section>
+
+
+    <section id="about" class="s-about target-section">
+
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/avatars/613222390.jpeg" alt="Аватарка">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>Из инженера в it</h3>
+                <p>
+               <span>Работа</span>  инженером, дала понимание, чего я хочу на самом деле. <span>Веб-индустрия</span>  , даёт шанс воплотить все амбиции и возможность внедрить свои <span>технологии</span> , оставив за собой след. Опыт в инженерном деле, дал мне точность и внимание к мелочам, а так-же привычку постоянно <span>учиться</span> . Я начал свой путь к <span>Full-stack</span> разработке, более года назад, за это время было пройдено не мало трудностей, но я верю , что самое интересное, ждёт меня впереди. 
+                </p>
+
+                <hr>
+
+            </div>
+        </div> 
+
+    </section> 
+
+
+    <section id="resume" class="s-resume target-section">
+        
+
+
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Мои навыки</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <p>
+                        <strong>Навыки в веб-разработке:</strong>  адаптивная, кроссбраузерная вёрстка. Пишу по методологии БЭМ. Знание css,html js(Базовый),опыт работы с jQuery. <br> <strong>Опыт работы с библиотеками:</strong>  Bootstrap, TailWind, Angular.Пишу на lass, sess, по html есть практика на pug. Умение работать с изображениями Photoshpo,Figma. <br>
+                         В приоритете развитие себя как специалиста <strong>Fullstack</strong> 
+                    </p>
+
+                    <ul class="skill-bars-fat">
+                        <li>
+                        <div class="progress percent85"></div>
+                        <strong>HTML</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent75"></div>
+                        <strong>CSS</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent30"></div>
+                        <strong>Javascript</strong>
+                        </li>
+                        <li>
+                            <div class="progress percent10"></div>
+                            <strong>FrameWorks</strong>
+                            </li>
+                        <li>
+                        <div class="progress percent80"></div>
+                        <strong>Figma</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent60"></div>
+                        <strong>Photoshop</strong>
+                        </li>
+
                     </ul>
-                  </div>
-                </li>
-                <li class="nav-item nav-text-down">
-                  <a class="nav-link-text" href="services-pages/service-page-5.html">Сервисы</a>
-                </li>
-                <li class="nav-item nav-text-down">
-                  <a class="nav-link-text" href="services-pages/service-page-1.html">Блог</a>
-                </li>
-                <li class="nav-item nav-text-down">
-                  <a class="nav-link-text" href="#">О компании</a>
-                </li>
-                <li class="nav-item nav-text-down">
-                  <a class="nav-link-text" href="#">Контакты</a>
-                </li>
-              </ul>
+
+                </div>
+
             </div>
-          </div>
-        </nav>
-</div>
-  </header>
-    <main>
-      <section class="industrial-waste mb-4">
+        </div> 
 
-      <div class="container-xl ">
-        
-          <div class="row pt-5 pb-5">
-     
-      <div class="col-7 me-5">
-        <h2 class="title-main">Утилизация <br>
- 
-         <span class="fw-bold">промышленных</span>  и <span class="fw-bold">пищевых</span> 
-          отходов</h2>
-                   <div class="row">
-        <span class="text-main mb-4">сбор, вывоз и утилизация опасных отходов I-V классов по всей России</span>
-        <button class="button-slider">ЗАКАЗАТЬ ЗВОНОК</button>
-          </div>
+    </section> 
 
-      </div>
-      
-      <div class="col-4 d-flex justify-content-center">
-        <img class="image-slide-main" src="img//image-main/disposal.png" alt="Утилизация">
-      </div>
+    <section id="portfolio" class="s-portfolio target-section">
 
-      <div class=""></div>
-      <div class=""></div>
-      
-       </div>
-
-</div>
-      </section>
-      <section class="type-waste revealator-slideup">
-        <div class="container-xl d-flex  flex-column py-5">
-          <div class="type-west-block text-center bg-white p-3">
-            <h2 class="title-waste">Выберите подходящий тип отходов для утилизации
-            </h2>
-            <span class="type-waste-text">
-          В любом количестве вывезем отходы I-V класса опасности
-            </span>
-          </div>
-          <div class="row">
-            <div class="col d-flex justify-content-evenly align-items-center mt-5">
-              <div class="text-center">
-                    <img class="image-west--industry" src="img/icons/industrial-waste.png" alt="Типы отходов">
-                    <h3 class="fw-bold industry-title">Промышленные</h3>
-                    <p class="waste-text"> отходы</p>          
-              </div>
-            <div class="text-center">
-               <img  class=" image-west--nutriton" src="img/icons/food-waste.png" alt="Типы отходов">
-               <h3 class="food-waste-text fw-bold">Пищевые</h3>
-               <p class="waste-text">отходы</p>
+        <div class="row s-portfolio__header">
+            <div class="column large-12">
+                <h3>Мои работы</h3>
             </div>
-              
-            </div>
-          </div>
-          
         </div>
 
-      </section>
-      <section class="service-price revealator-slideleft container-xl">
-        <div class="row">
-          <div class="col d-flex flex-column justify-content-start align-items-center">
-            <div class="service-price-text">
+        <div class="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
 
-            
-            <h2 class="service-price-title text-start fw-bold">Расчитать стоимость услуги </h2>
-            <span class="details-price">Укажите код или название отхода. Пришлем на почту <br> коммерческое предложение</span>
-</div>
-            <form action="">
-              <div class="">
-              <div class="personal-price d-flex p-4 mt-3 mb-3 justify-content-center">
-                <input class="personal-price-input " type="text" placeholder="Начнте ввод кода или название отхода или выбирите из вариантов">
-              </div>      
-              
-              <div class="price-information">
-              <button class="add-waste me-2">ДОБАВИТЬ ОТХОД</button>
-              <button class="find-price">УЗНАТЬ ЦЕНУ</button>                 
-              </div>
-         
-              </div>
+            <div class="column folio-item">
+                <a href="projects/ЭКОЛИГА/index.html" class="folio-item__thumb">
+                    <img src="images/portfolio/ecology.png" 
+                      alt="">
+                      
+                </a>
+            </div> 
 
-            </form>
-          </div>
-          <div class="col-4 d-flex justify-content-center align-items-center">
-            <img class="image-waste" src="img/image-main/Mask Group.png" alt="Переработка">
-          </div>
+            <div class="column folio-item">
+                <a href="projects/onvet-copy/index.html" class="folio-item__thumb">
+                    <img src="images/portfolio/veteranary.png"  alt="">
+                </a>
+            </div> 
+
+            <div class="column folio-item">
+                <a href="projects/интерьер/index.htm" class="folio-item__thumb">
+                    <img src="images/portfolio/готовые решения.png"  alt="">
+                </a>
+            </div>
+
+            <div class="column folio-item">
+                <a href="projects/BPUG/index.html" class="folio-item__thumb">
+                    <img src="images/portfolio/Battle.png" alt="">
+                </a>
+            </div> 
+
+        </div> 
+
+
+
+    </section> 
+
+
+
+
+
+
+    <footer id="contact" class="s-contact target-section">
+
+        <div class="row s-contact__header">
+            <div class="column large-12">
+                <h3 class="section-header-allcaps"> Мои контакты</h3>
+            </div>
         </div>
-      </section>
-      <section class="about-us">
-        <div class="container-xxl">
-        <div class="row about-us-section" id="collapse-group">
-          
-          <div class="col">
-            <div  data-tab-content="1" class="block active">
-            <div class="about-us-card-block d-flex flex-column">
-              <div class="about-us-ecology">
-              <h3 class="about-us-ecology-title">О нас Эколига</h3>
-             </div>
 
-              <p class="about-us-ecology-text">
-                "ЭКОЛИГА" ЛИДЕР РОССИЙСКОГО РЫНКА ПО МНЕНИЮ НАШИХ ПАРТНЁРОВ
-                Многолетние история развития нашей компании насчитывает около тысячи договоров утилизации с предприятиями со всех уголков России. Мощности нашей компании способны хранить, и утилизировать практически любой объём отходов. Собственный парк спецтранспорта и грамотная логистическая подготовка позволила охватить огромный объём заказов. Благодаря этому, мы быстро реагируем и приезжаем на Ваш объект уже через 1 час.
-              </p>
+        <div class="row s-contact__content">
 
-              <p class="about-us-ecology-text">
-                Мы работаем со всеми классами ФККО, имеем собственные оборудованные хранилища и микропредприятия в  14 городах России. Мы ценим долгие и комфортные бизнес отношения с нашими партнёрами Дорожим нашей репутацией и не допускаем ошибок в нашей работе. Вы можете быть уверены в том, что "Эколига" выполнит заказ быстро, качественно и чётко в срок.
-              </p>
-              <a class="more justify-content-center align-items-center" href="№">ПОДРОБНЕЕ</a>
+            <div class="column large-7 medium-12">
+
+                <h4 class="huge-text">
+                    Задумали новый проект? Давайте сотрудничать и создадим что-нибудь потрясающее, превратим эту идею в еще больший продукт :)
+                </h4>
 
             </div>
-          </div>
-          <div  data-tab-content="2" class="block">
-            <div class="about-us-card-block d-flex flex-column">
-              <div class="about-us-ecology">
-              <h3 class="about-us-ecology-title">О нас Эколига</h3>
-             </div>
 
-              <p class="about-us-ecology-text">
-                "ЭКОЛИГА" ЛИДЕР РОССИЙСКОГО РЫНКА ПО МНЕНИЮ НАШИХ ПАРТНЁРОВ
-                Многолетние история развития нашей компании насчитывает около тысячи договоров утилизации с предприятиями со всех уголков России. Мощности нашей компании способны хранить, и утилизировать практически любой объём отходов. Собственный парк спецтранспорта и грамотная логистическая подготовка позволила охватить огромный объём заказов. Благодаря этому, мы быстро реагируем и приезжаем на Ваш объект уже через 1 час.
-              </p>
+            <div class="column large-4 medium-12">
 
-              <p class="about-us-ecology-text">
-
-              </p>
-              <a class="more justify-content-center align-items-center" href="№">ПОДРОБНЕЕ</a>
-
-            </div>
-          </div>
-          <div  data-tab-content="3" class="block">
-            <div class="about-us-card-block d-flex flex-column">
-              <div class="about-us-ecology">
-              <h3 class="about-us-ecology-title">О нас Эколига</h3>
-             </div>
-
-              <p class="about-us-ecology-text">
-                "ЭКОЛИГА" ЛИДЕР РОССИЙСКОГО РЫНКА ПО МНЕНИЮ НАШИХ ПАРТНЁРОВ
-                Многолетние история развития нашей компании насчитывает около тысячи договоров утилизации с предприятиями со всех уголков России. Мощности нашей компании способны хранить, и утилизировать практически любой объём отходов. Собственный парк спецтранспорта и грамотная логистическая подготовка позволила охватить огромный объём заказов. Благодаря этому, мы быстро реагируем и приезжаем на Ваш объект уже через 1 час.
-              </p>
-
-              <a class="more justify-content-center align-items-center" href="№">ПОДРОБНЕЕ</a>
-
-            </div>
-          </div>
-          <div  data-tab-content="4" class="block">
-            <div class="about-us-card-block d-flex flex-column">
-              <div class="about-us-ecology">
-              <h3 class="about-us-ecology-title">О нас Эколига</h3>
-             </div>
-
-              <p class="about-us-ecology-text">
-                "ЭКОЛИГА" ЛИДЕР РОССИЙСКОГО РЫНКА ПО МНЕНИЮ НАШИХ ПАРТНЁРОВ
-                Многолетние история развития нашей компании насчитывает около тысячи договоров утилизации с предприятиями со всех уголков России. Мощности нашей компании способны хранить, и утилизировать практически любой объём отходов. Собственный парк спецтранспорта и грамотная логистическая подготовка позволила охватить огромный объём заказов. Благодаря этому, мы быстро реагируем и приезжаем на Ваш объект уже через 1 час.
-              </p>
-
-              <p class="about-us-ecology-text">
-
-              </p>
-              <a class="more justify-content-center align-items-center" href="№">ПОДРОБНЕЕ</a>
-
-            </div>
-          </div>
-          
-
-          </div>
-
-          <div class="col text-center">     
-          <div>
-            <div class="btn " data-tab-content="1" >         
-            <div class="about-us-card mb-4 link active">
-              <div class="about-us-card-body">
-                <img class="mb-2" src="img/icons/license.png" alt="Лицензии">
-                <h3 class="about-us-title">Лицензии</h3>
-                <p class="about-us-text link">Группа компаний "Эколига" имеет лицензии на все классы отходов подлежащие утилизации и ранению.</p>
-              </div>
-            </div>
-          </div>   
-
-
-          <div class="btn " data-tab-content="2" >         
-            <div class="about-us-card mb-4 link">
-              <div class="about-us-card-body">
-                <img class="mb-2" src="img/icons/authority.png" alt="Авторитет">
-                <h3 class="about-us-title">Авторитет</h3>
-                <p class="about-us-text">Наша компания является основным партнёром крупных производственных компании России.
-                </p>
-              </div>
-            </div>
-          </div>  
-
-
-          <a class="btn "  data-tab-content="3">         
-            <div class="about-us-card link">
-              <div class="about-us-card-body">
-                <img class="mb-2" src="img/icons/save.png" alt="Надёжность">
-                <h3 class="about-us-title">Надёжность</h3>
-                <p class="about-us-text">Оказываем полный спектр услуг по утилизации практически всех видов ваших отходов.
-                </p>
-              </div>
-            </div>
-          </a>  
-
-          <a class="btn " data-tab-content="3">         
-            <div class="about-us-card link">
-              <div class="about-us-card-body">
-                <img class="mb-2" src="img/icons/security.png" alt="Безопасность">
-                <h3 class="about-us-title">Безопасность</h3>
-                <p class="about-us-text">Строго соблюдаем законодательство РФ. Выдаем всё необходимые документы и Акты.
-                </p>
-              </div>
-            </div>
-          </a>  
-         
-          </div>
-        </div>
-        </div>
-        
-
-        </div>
-      </section>
-      <section class="proffesional-disposal container-xl">
-        <div class="row ">
-          <div class="col text-center">
-            <h2 class="title-waste">Доверьте специалистам утилизацию отходов</h2>
-            <span class="type-waste-text">от сбора и транспортировки до подготовки отчетных документов</span>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col proffesional-disposal-block mt-5 d-flex justify-content-evenly">
-            <div class="proffesional-disposal-article text-start">
-              <img class="w-100" src="img/image-main/separation.jpg" alt="Утилизация">
-              <div class="proffesional-disposal-card">
-                <h3 class="proffesional-disposal-title mb-0 mt-3">Название карточки</h3>
-                <p class="proffesional-disposal-text">опыт работы компании с отходами любых объемов и классов опасности</p>
-              </div>
-            </div>
-            <div class="proffesional-disposal-article text-start">
-              <img class="w-100" src="img/image-main/landfill.jpg" alt="Утилизация">
-              <div class="proffesional-disposal-card">
-                <h3 class="proffesional-disposal-title mb-0 mt-3">Заголовок с информацие</h3>
-                <p class="proffesional-disposal-text">Приветствуем Вас от лица группы компаний Экосервис. Мы с 2004 года оказываем услуги по сбору, вывозу, временному хранению. </p>
-              </div>
-            </div>
-            <div class="proffesional-disposal-article text-start">
-              <img class="w-100" src="img/image-main/landfill.jpg" alt="Утилизация">
-              <div class="proffesional-disposal-card">
-                <h3 class="proffesional-disposal-title mb-0 mt-3">Заголовок с информацие</h3>
-                <p class="proffesional-disposal-text">Оперативно реагируем на ваш запрос и гарантируем качественную утилизацию/обезвреживание отходов любого класса опасности.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="our-customers  py-5">
-        <div class="container-xxl d-flex flex-column justify-content-center align-items-center">
-          <div class="our-customers-block p-2 d-flex mb-5 justify-content-center">
-            <h2 class="our-customers-title">С кем мы работаем?</h2>
-          </div>
-          <div class="row partners-main ms-4">
-            <div class="col">
-              <div class="card-clients revealator-slideup text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-1.png" alt="Аптеки">
-                  <h3 class="card-clients-title">Аптеки</h3>
-
-                </div>
-              </div>
-                </div>
-
-                <div class="col">
-              <div class="card-clients revealator-slideup text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-2.png" alt="Производства">
-                  <h3 class="card-clients-title">Производства</h3>
-                </div>
-              </div>
-              </div>
-              <div class="col">
-              <div class="card-clients revealator-slideup text-center d-flex align-items-center justify-content-center">
-                <div class="card-clients-body p-3">
-                  <img src="img/icons-customers/image-3.png" alt="Автомобилестроение">
-                  <h3 class="card-clients-title">Автомобилестроение</h3>
-                </div>
-              </div>
-              </div>
-
-              <div class="col">
-              <div class="card-clients revealator-slideup text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-4.png" alt="Производственные организации">
-                  <h3 class="card-clients-title">Производственные организации</h3>
-                </div>
-              </div>
-              </div>
-              <div class="col">
-              <div class="card-clients revealator-slideup text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-5.png" alt="Металлургия">
-                  <h3 class="card-clients-title">Металлургия</h3>
-
-                </div>
-              </div>
-              </div>
-              <div class="col">
-                <div class="card-clients revealator-slideup text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-6.png" alt="Автосервисы с СТО Автомойки">
-                  <h3 class="card-clients-title">Автосервисы <br> с СТО Автомойки</h3>
-                </div>
-              </div>
-            </div>
-              <div class="col">
-              <div class="card-clients revealator-slideup text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-7.png" alt="Торговые компании">
-                  <h3 class="card-clients-title">Торговые компании</h3>
-                </div>
-              </div>
-            </div>
-              <div class="col ">
-              <div class="card-clients revealator-slideup text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-8.png" alt="Химзавдоы">
-                  <h3 class="card-clients-title">Химзавдоы</h3>
-                </div>
-              </div>
-              </div>
-
-              <div class="col revealator-slideup d-flex justify-content-center">
-              <div class="card-clients warehouse text-center d-flex p-2 align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-9.png" alt="Складские комплексы">
-                  <h3 class="card-clients-title">Складские комплексы</h3>
-                </div>
+                <div class="row contact-infos">
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Email
+                            </h5>
+                            <p class="contact-block__content">
+                                <a class="mailtoui" href="mailto:igorek_chernov_1998@mail.ru">igorek_chernov_1998@mail.ru</a>
+                            </p>
+                        </div> 
+                    </div>
+                    <div class="column large-12 medium-6 tab-12">
+                        <div class="contact-block">
+                            <h5 class="contact-block__header">
+                                Телефон
+                            </h5>
+                            <p class="contact-block__content">
+                                <a href="tel:8(916)222-39-58">8(916)222-39-58</a>
+                            </p>
+                        </div> 
+                    </div>
                 </div> 
-                
-              <div class="card-clients revealator-slideup text-center d-flex align-items-center justify-content-center p-2">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-10.png" alt="Агро промышленность">
-                  <h3 class="card-clients-title">Агро промышленность</h3>
-                </div>
-              </div>
-             
-              </div>
-          </div>
 
-          <div class="row partners-main-mobile ms-2">
-            <div class="col ">
-              <div class="card-clients text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-1.png" alt="Аптеки">
-                  <h3 class="card-clients-title">Аптеки</h3>
-
-                </div>
-              </div>
-                </div>
-
-                <div class="col ">
-              <div class="card-clients text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-2.png" alt="Производства">
-                  <h3 class="card-clients-title">Производства</h3>
-                </div>
-              </div>
-              </div>
-              <div class="col ">
-              <div class="card-clients text-center d-flex align-items-center justify-content-center">
-                <div class="card-clients-body p-3">
-                  <img src="img/icons-customers/image-3.png" alt="Автомобилестроение">
-                  <h3 class="card-clients-title">Автомобилестроение</h3>
-                </div>
-              </div>
-              </div>
-
-              <div class="col">
-              <div class="card-clients text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-4.png" alt="Производственные организации">
-                  <h3 class="card-clients-title">Производственные организации</h3>
-                </div>
-              </div>
-              </div>
-              <div class="col">
-              <div class="card-clients text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-5.png" alt="Металлургия">
-                  <h3 class="card-clients-title">Металлургия</h3>
-
-                </div>
-              </div>
-              </div>
-              <div class="col">
-                <div class="card-clients text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-6.png" alt="Автосервисы с СТО Автомойки">
-                  <h3 class="card-clients-title">Автосервисы <br> с СТО Автомойки</h3>
-                </div>
-              </div>
             </div>
-              <div class="col">
-              <div class="card-clients text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-7.png" alt="Торговые компании">
-                  <h3 class="card-clients-title">Торговые компании</h3>
-                </div>
-              </div>
-            </div>
-              <div class="col">
-              <div class="card-clients text-center p-2 d-flex align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-8.png" alt="Химзавдоы">
-                  <h3 class="card-clients-title">Химзавдоы</h3>
-                </div>
-              </div>
-              </div>
+        </div> 
 
-              <div class="col">
-              <div class="card-clients text-center d-flex p-2 align-items-center justify-content-center">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-9.png" alt="Складские комплексы">
-                  <h3 class="card-clients-title">Складские комплексы</h3>
-                </div>
-                </div>                 
-              </div>
-
-                <div class="col">
-              <div class="card-clients text-center d-flex align-items-center justify-content-center p-2">
-                <div class="card-clients-body">
-                  <img src="img/icons-customers/image-10.png" alt="Агро промышленность">
-                  <h3 class="card-clients-title">Агро промышленность</h3>
-                </div>
-              </div>                  
-                </div>
-           
-          </div>
-
-              
-            
-          </div>
-      
-        </div>
-         
-      </section>
-      <section class="commercail-proposak d-flex flex-column justify-content-center align-items-center py-5">
-        <div class="container-xl text-center mb-3">
-          <h2 class="commercail-proposak-title">Получите коммерческое предложение в течение 15 минут</h2>
-          <span class="commercail-proposak-text">ответьте на 3 вопроса, чтобы мы могли рассчитать стоимость утилизации</span>
-        </div>
-        <a href="" class="commercail-proposak-complete d-flex justify-content-center align-items-center">ПОЛУЧИТЬ КП</a>
-      </section>
-
-      <section class="container-xxl revealator-slideright work-stages">
-           
-        <div class="row work-stages-section  d-flex justify-content-center align-items-center">
-          
-          <div class="col work-stages-column flex-column d-flex">
-         <h2 class="work-stages-title mb-5">Этапы нашей работы</h2>
-         <div class="col d-flex work-stages-sections">
-         
-            <div class="col">
-              <img class="work-stages-picture" src="img/image-main/stages-work/stage-1.png" alt="Заказ">
-              <p class="work-stages-text">Заказ</p>                
-            </div>
-
-            <div class="col">
-              <img class="work-stages-picture" src="img/image-main/stages-work/stage-2.png" alt="Консультация">
-              <p class="work-stages-text">Консультация</p>
-            </div>
-
-            <div class="col">
-              <img class="work-stages-picture" src="img/image-main/stages-work/stage-3.png" alt="Договор">
-              <p class=" work-stages-text">Договор</p>
-            </div>
-
-            <div class="col">
-              <img class="work-stages-picture" src="img/image-main/stages-work/stage-4.png" alt="Утилизация">
-              <p class=" work-stages-text">Утилизация</p>
-            </div>
-          </div>
- </div>
-
-          <div class="col-3 pe-0 d-flex justify-content-end align-items-center">
-            <img class="work-stages-image" src="img/image-main/stages-work/Intersect.jpg" alt="Этапы">
-          </div>
-          </div>
-      
-      </section>
-      <section class="container-question very-question py-5 d-flex justify-content-center">
-        <div class="">
-          <h2 class="very-question-title text-center">Часто задаваемых вопросов по утилизации мусора:</h2>
-        <div class="accordion-question accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Вы предотсавляете документы об утилизации?
-              </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body-question ps-4">
-               Группа компаний "Эколига" имеет лицензии на все классы отходов подлежащие утилизации и ранению.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne-2">
-              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-2" aria-expanded="false" aria-controls="flush-collapseOne">
-                Вы предотсавляете документы об утилизации?
-              </button>
-            </h2>
-            <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body-question ps-4">
-               Группа компаний "Эколига" имеет лицензии на все классы отходов подлежащие утилизации и ранению.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-3" aria-expanded="false" aria-controls="flush-collapseOne">
-                Вы предотсавляете документы об утилизации?
-              </button>
-            </h2>
-            <div id="flush-collapse-3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body-question ps-4">
-               Группа компаний "Эколига" имеет лицензии на все классы отходов подлежащие утилизации и ранению.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-4" aria-expanded="false" aria-controls="flush-collapseOne">
-                Вы предотсавляете документы об утилизации?
-              </button>
-            </h2>
-            <div id="flush-collapse-4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body-question ps-4">
-               Группа компаний "Эколига" имеет лицензии на все классы отходов подлежащие утилизации и ранению.</div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-5" aria-expanded="false" aria-controls="flush-collapseOne">
-                Вы предотсавляете документы об утилизации?
-              </button>
-            </h2>
-            <div id="flush-collapse-5" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body-question ps-4">
-               Группа компаний "Эколига" имеет лицензии на все классы отходов подлежащие утилизации и ранению.</div>
-            </div>
-          </div>
-         
-        </div>
-</div>
-
-      </section>
-      <section class="container-services d-flex price-block">
-        <div class="row w-100 price-utilization-section ">
-          <div class="col p-4 price-utilization ">
-            <h2 class="fw-bold text-center mb-3">Узнайте стоимость утилизации сейчас!</h2>
-            <div class="col d-flex justify-content-between">
-            <form class="price-utilization-list" action="">
-              <div class="d-flex mb-3 price-utilization-form ">
-
-              <div class="col price-utilization-input-block ">
-              <legend class="legend-title" for="name">Ваше имя</legend>
-              <input class="price-utilization-input" id="name" type="text">                
-              </div>
-
-              <div class="col price-utilization-input-block">
-              <legend class="legend-title" for="phone">Телефон</legend>
-              <input class="price-utilization-input" id="phone" type="text">                
-              </div>
-                
-
-            <div class="col price-utilization-input-block">
-              <legend class="legend-title" id="mail" for="">Ваш E-mail</legend>
-              <input  class="price-utilization-input" id="#mail" type="email">  
-            </div>
-          </div>
-         
-              <div class="d-flex flex-column applikation-form align-items-end">
-              <span class="applikation-form-text">
-                Просто отправьте заявку. Наш менеджер свяжется с вами для уточнения деталей и расчета стоимости.
-              </span>
-              <button class="next d-flex justify-content-center align-items-center">ОТПРАВИТЬ</button>                
-              </div>              
-         
-
-            </form>              
-            </div>
-
-          </div>
-          <div class="col block-image">
-            <img src="img/image-main/image-form.svg" alt="Заявка" class="applikation-image-mobile">
-            <img class="applikation-image" src="img/image-main/image-form.svg" alt="Заявка">
-          </div>
-        </div>
-      </section>
-      
-      <section class="container-xxl work-country">
-        <h2 class="text-center fw-bold title-waste title-waste-mobile mb-5">Работаем по всей стране</h2>
-        </section>
-        <section class="work-country-background">
-          <div class="container-xxl">
-        <div class="row work-country-section pt-5">
-          <div class="col">
-            <img class="work-country-image" src="img/image-main/Country.png" alt="Страна">
-          </div>
-          <div class="col">
-            <p class="">Часть отходов, которая может быть использована в том же производстве, называется возвратными отходами. Сюда входят остатки сырья и других видов материальных ресурсов, образовавшиеся в процессе производства товаров (выполнения работ, оказания услуг). Из-за частичной утраты некоторых потребительских свойств возвратные отходы могут использоваться в условиях со сниженными требованиями к продукту, или с повышенным расходом, иногда они не используются по прямому назначению, а лишь в подсобном производстве (например, автомобильные отработанные масла — для смазки неответственных узлов техники).</p>
-            <p>
-              Часть отходов, которая может быть использована в том же производстве, называется возвратными отходами. Сюда входят остатки сырья и других видов материальных ресурсов, образовавшиеся в процессе производства товаров (выполнения работ, оказания услуг).
-            </p>
-          </div>
-        </div>
-        </div>
-        </section>
-        <section class="container-xxl">
-        <div class="row container-group">
-          <div class="col-4 group-one p-4 d-flex justify-content-center align-items-center">
-            <img src="img/icons/group.png" alt="Предложение">
-          </div>
-          <div class="col group-two ps-4 d-flex justify-content-center align-items-center ">
-            <p class="group-text">
-              Получите коммерческое предложение в течение 15 минут
-              опыт работы компании с отходами любых объемов и классов опасности</p>
-          </div>
-        </div>
-        </section>
-
-      <section class="recycling">
-        <div class="container-xxl ">
-          <div class="row d-flex align-items-start justify-content-center recycling-section">
-            <div class="col mt-4">
-              <h2 class="fw-bold recycling-title">Собственный завод по переработке</h2>
-              <div class="group-text-main">
-              <p>Часть отходов, которая может быть использована в том же производстве, называется возвратными отходами. Сюда входят остатки сырья и других видов материальных ресурсов, образовавшиеся в процессе производства товаров (выполнения работ, оказания услуг). Из-за частичной утраты некоторых потребительских свойств возвратные отходы могут использоваться в условиях со сниженными требованиями к продукту, или с повышенным расходом, иногда они не используются по прямому назначению, а лишь в подсобном производстве (например, автомобильные отработанные масла — для смазки неответственных узлов техники).</p>
-              <p>
-                Из-за частичной утраты некоторых потребительских свойств возвратные отходы могут использоваться в условиях со сниженными требованиями к продукту, или с повышенным расходом, иногда они не используются по прямому назначению, а лишь в подсобном производстве (например, автомобильные отработанные масла — для смазки неответственных узлов техники).
-              </p>
-              </div>
-            </div>
-            <div class="col-5 d-flex justify-content-start align-items-center">
-              <img class="image-recycling" src="img/image-main/eed10b060f5b55169d83db5926a4909d.jpg" alt="Переработка">
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="partners">
-        <div class="container-xxl">
-        <h2 class="text-center fw-bold partners-title">Наши партнёры</h2>
-
-        <!-- Slider main container -->
-<div class="swiper-container">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <div class="swiper-slide min-height text-center"><img src="img/partners/image 2.jpg" alt="Партнёр"></div>
-    <div class="swiper-slide min-height"><img src="img/partners/image 3.jpg" alt="Партнёр"></div>
-    <div class="swiper-slide min-height"><img src="img/partners/image 4.jpg" alt="Партнёр"></div>
-    <div class="swiper-slide min-height"><img src="img/partners/image 5.jpg" alt="Партнёр"></div>
-    <div class="swiper-slide min-height"><img src="img/partners/image 6.jpg" alt="Партнёр"></div>
-    <div class="swiper-slide min-height"><img src="img/partners/image 7.jpg" alt="Партнёр"></div>
-  </div>
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-</div>
-        </div>
-
-      </section>
-     
-    </main>
-    <footer class="footer-section">
-      <div class="container-xxl footer-desktop d-flex justify-content-around">
-        <img class="logo-image" src="..//img/image-logo/logo-footer.png" alt="Логотип">
-        <div class="row d-flex mobile-row justify-content-start">
-          <div class="col-4 br">
-            <ul class="category-list">
-              <li class="category-item"><a class="category-link" href="">Промышленные отходы</a></li>
-              <li class="category-item"><a class="category-link" href="">Пищевые отходы</a></li>
-              <li class="category-item"><a class="category-link" href="">Пищевые отходы</a></li>
-            </ul>
-          </div>
-          <div class="col-4 br">
-            <ul class="services-list">
-              <li class="services-item"><a class="services-link" href="">Услуги</a></li>
-              <li class="services-item"><a class="services-link" href="">Сервисы</a></li>
-              <li class="services-item"><a class="services-link" href="">Блог</a></li>
-              <li class="services-item"><a class="services-link" href="">О компании</a></li>
-              <li class="services-item"><a class="services-link" href="">Контакты</a></li>
-            </ul>
-          </div>
-          <div class="col contacts-block d-flex flex-column">
-            <a class="contacts mb-2 contacts--message" href="mailto:ecoliga@gmail.com">ecoliga@gmail.com</a>
-            <a class="contacts contacts--call" href="tell:8 (800) 188 18 18">8 (800) 188 18 18</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="mobile-footer ">
-        <img class="logo-image-mobile" src="..//img/image-logo/logo-footer.png" alt="Логотип">
-        <div class="">
-       <div class="border-bottom ms-4">
-          <div class="d-flex">
-          <div class="d-flex flex-row" >
-        <ul class="mobile-footer-item">
-          <li class="mobile-footer-list"><a class="mobile-footer-link" href="">Услуги</a></li>
-          <li class="mobile-footer-list"><a class="mobile-footer-link" href="">Сервисы</a></li>
-        </ul>
-        <ul class="mobile-footer-item">
-          <li class="mobile-footer-list"><a class="mobile-footer-link" href="">О компании</a></li>
-          <li class="mobile-footer-list"><a class="mobile-footer-link" href="">Контанкты</a></li>
-        </ul>  
-           
-         </div>
-          </div>
-          <a class="mobile-footer-link last-link" href="">Блог</a>
-
-       </div>
-<div class="d-flex flex-column">
-  <a class="contacts mb-2 mt-1 contacts--message" href="mailto:ecoliga@gmail.com">ecoliga@gmail.com</a>
-  <a class="contacts contacts--call" href="tell:8 (800) 188 18 18">8 (800) 188 18 18</a>
-</div>
- </div>
-      </div>
-    </footer>
-    <script src="js/swiper.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/fm.revealator.jquery.js"></script>
-    <script src="js/swiper-description.js"></script>
-    <script src="js/nav-menu.js"></script>
-    <script>
-tabs("link", "block");
-setJsVoid(document.querySelectorAll(".link"));
-
-function tabs(btnClass, blockClass) {
-  var link = document.querySelectorAll("." + btnClass);
-  var tabs = document.querySelectorAll("." + blockClass);
-
-  for (var i = 0; i < link.length; i++) {
-    setClick(i);
-  }
-
-  function setClick(i) {
-    link[i].addEventListener('click', function() {
-      removeClass(link, 'active');
-      removeClass(tabs, 'active');
-      // При клике - убрать активный класс со всех кнопок и блоков,
-      
-      addClass(link[i], 'active');
-      addClass(tabs[i], 'active');
-
-      // Добавить на нужные элементы.
-    });
-  }
-}
-
-/**************************/
-
-function addClass(elems, className) {
-  if (elems instanceof HTMLElement) {
-    elems.classList.add(className);
-    return;
-  }
-
-  for (var i = 0; i < elems.length; i++) {
-    elems[i].classList.add(className);
-  }
-}
-
-function removeClass(elems, className) {
-  if (elems instanceof HTMLElement) {
-    elems.classList.remove(className);
-    return;
-  }
-
-  for (var i = 0; i < elems.length; i++) {
-    elems[i].classList.remove(className);
-  }
-}
-
-function setJsVoid(elems) {
-  for (var i = 0; i < elems.length; i++) {
-    elems[i].setAttribute('href', "javascript:void(0);");
-  }
-}
-    </script>
+    </footer> 
     
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>

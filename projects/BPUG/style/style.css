@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url('..//fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: "San Francisco Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url('..//fonts/SFProDisplay-Regular.woff2');
+}
+@font-face {
+    font-family: "San Francisco Pro";
+    font-style: normal;
+    font-weight: 700;
+    src: url('..//fonts/SFProDisplay-Bold.woff2');
+}
+@font-face {
+    font-family: "San Francisco Pro";
+    font-style: normal;
+    font-weight: 900;
+    src: url('..//fonts/SFProDisplay-Black.woff2');
+}
+
+body {
+    font-family: "San Francisco Pro", "Roboto";
+    font-style: normal;
+    background-color: #000;
+}
+
+.btn {
+    font-family: "Roboto";
+}
+
+.title-main {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.esports {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.esports-span {
+    color: #fff;
+}
+
+.title-block {
+    margin-bottom: 25px;
+}
+
+.button-game {
+    background: linear-gradient(to top, rgba(255, 199, 0, 1) 50%, rgba(255, 214, 0, 1)50%) ;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.button-game-mobile {
+    margin-bottom: 74px!important;
+}
+
+.game-discription {
+    color: #959595;
+    margin-bottom: 65px;
+}
+
+.pay-item {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.page-block {
+    margin-top: 44px;
+    padding-bottom: 44px;
+}
+
+.commerce {
+    color: #959595;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-main {
+    width: 100%;
+}
+
+.information-block {
+    margin-top: 46px;
+    margin-bottom: 40px;
+}
+
+.modal__login-link {
+    background-color: rgba(114, 137, 218, 1);
+}
+
+.card {
+    background-color: #000;
+    border: 1px solid rgba(255, 214, 0, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background-color: #fff
+    ;
+
+
+}
+
+.backgroung-image {
+    background: url('..//img/image-main/DF\ 1.svg');
+    background-position: right;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.card-body {
+    padding: 30px;
+}
+.registration {
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.text-registration {
+    padding: 0;
+    max-width: 320px;
+    border: none;
+    color: #fff;
+    background-color: black;
+    border-bottom: 1px solid rgba(255, 214, 0, 1);
+}
+
+.modal__login-link_facebook::before {
+    content: url('..//img/icons/Facebook.png');
+    padding-right: 7px;
+    width: 25px;
+    vertical-align: middle;
+}
+
+.modal__login-link_google::before {
+    content: url('..//img/icons/Google.png');
+    padding-right:15px;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.modal__login-link_discord::before {
+    content: url('..//img/icons/Discord\ -\ Negative.png');
+    padding-right: 15px;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.button-language {
+    vertical-align: middle;
+}
+
+.button-inout {
+    padding: 0;
+    padding-left: 20px;
+}
+
+.form-block {
+    display: flex;
+    justify-content: center;
+}
+
+.password {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.title-registration {
+    /* margin-right: auto; */
+}
+
+.title-registration {
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px ;
+    border-radius: 40px;
+}
+
+.card-registration {
+    padding: 25px;
+}
+
+.navbar-brand-mobile {
+    display: none;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.image-modal {
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+input {
+    outline: none;
+}
+
+.centered {
+    display: flex;
+}
+
+/* Адаптив */
+
+@media (max-width: 760px) {
+    .image-main {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    .title-main {
+      font-size: 30px!important;
+    }
+
+    .column-down {
+        display: none;
+    }
+
+    .backgroung-image {
+    background: url('..//img/image-main/DF\ 1.svg');
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  
+}
+
+    .pay-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .centered {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+  .navbar-brand-mobile {
+    display: flex!important;
+  }
+  
+  .title-registration {
+    margin-right: auto;
+  }
+  
+  .form-block {
+    justify-content: flex-start!important;
+  }
+  
+  .button-game {
+    margin: 0 auto;
+  }
+  
+    .button-game {
+      width: 250px!important;
+      height: 42px!important;
+    }
+  
+    .esports-span {
+      color: rgba(149, 149, 149, 1)!important;
+    }
+    .image-main {
+      display: none;
+    }
+  }
