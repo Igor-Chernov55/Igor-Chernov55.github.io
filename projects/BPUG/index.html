@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style/normalize.css"> -->
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>UNi-TORN</title>
+
+</head>
+<body>
+    <header class="border-bottom">
+<div class="container-xxl">
+
+
+    <nav class="navbar navbar-light d-flex justify-content-start">
+              
+        <div class="container-fluid d-flex">
+<a class="navbar-brand" href="index.html"></a>  
+          
+            <div class="dropdown">
+
+              <img type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" class="button-language" aria-expanded="false" src="img/icons/US - United States.png" alt="Язык">
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#"><img src="img/icons/US - United States.png" alt="Язык"></a></li>
+                <li><a class="dropdown-item" href="#"><img src="img/icons/US - United States.png" alt="Язык"></a></li>
+                <li><a class="dropdown-item" href="#"><img src="img/icons/US - United States.png" alt="Язык"></a></li>
+              </ul>
+               <a class="btn fw-bold text-white button-inout" data-bs-toggle="modal"  data-bs-target="#entryModal">Вход</a>
+
+            </div>
+
+           
+
+        </div>
+      </nav>
+</div>
+    </header>
+    <main class="">
+      
+      <section class="container-xxl page page-block">
+       <div class="container backgroung-image">
+        <div class="row centered">
+          <div class="col  ">
+            <div class="esports">
+<div class="title-block">
+
+<h2 class="text-white title-main">ПУТЬ В МОБИЛЬНЫЙ <br> КИБЕРСПОРТ</h2>
+           <span class="esports-span">Участвуй в ежедневных турнирах , доказывай свой скилл и получай награды</span>
+
+    
+</div>
+           <!-- Button trigger modal -->
+           <div class="esports">
+  <button type="button" class="btn button-game button-game-mobile" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Играть бесплатно
+</button>
+  <span class="game-discription">Присоединяйся в два клика и сыграй свой первый турнир уже сейчас</span>    
+  <ul class="pay-item d-flex">
+    <li class="me-3"><img src="img/icons/PayPal.png" alt="PayPal"></li>
+    <li class="me-3"><img src="img/icons/MasterCard.png" alt="MasterCard"></li>
+    <li class="me-3"><img src="img/icons/visa.png" alt="visa"></li>
+  </ul>         
+           </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="card">
+        <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="img/image-main/deadPool.gif" class="image-modal card-img-top" alt="deadPool">
+        
+        <div class="row card-body d-flex justify-content-center">
+          
+          <a href="#" class="btn btn-primary mb-2 modal__login-link_facebook">Учетная запись Facebook</a>
+					<a href="#" class="btn btn-light mb-2 modal__login-link_google">Учетная запись Google</a>
+					<a href="#" class="btn modal__login-link mb-2 modal__login-link_discord">Учетная запись Discord</a>
+          <a href="#" class="registration"  type="button"  data-bs-toggle="modal" data-bs-target="#Modal">Регистрация по email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="card card-registration d-flex justify-content-center">
+        <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h3 class="title-registration text-white mb-4">Регистрация</h3>
+        <form class="row  form-block" action="">
+          <input class="text-registration mb-3" type="text" placeholder="Введите email">
+          <input class="text-registration mb-3" type="text" placeholder="Введите пароль">
+          <input class="text-registration" type="text" placeholder="Повторите пароль">
+          <button class="btn btn-warning button-game mt-5">Зарегистрироваться</button>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="entryModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="card card-registration d-flex">
+        <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h3 class="title-registration text-white mb-4">Вход</h3>
+        <form class="row form-block" action="">
+          <input class="text-registration mb-3" type="text" placeholder="Введите email">
+          <input class="text-registration mb-3" type="text" placeholder="Введите пароль">
+            <a class="password" href="#">Забыли парооль?</a>
+          <button class="btn btn-warning button-game mt-5">Войти</button>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+          </div>
+
+
+        </div>
+      </div>       
+      </section>
+
+    </main>
+    <footer class="border-top">
+      <section class="container-xxl d-flex justify-content-center">
+        <div class="information information-block">
+
+          <a class="navbar-brand-mobile mb-3" href="index.html"><img src="img/image-main/header-logo.png" alt="Логотип"></a>  
+        <ul class="pay-item d-flex mb-3">
+          <li class="me-3"><img src="img/icons/Discord - Negative.png" alt="Discord"></li>
+          <li class="me-3"><img src="img/icons/telegramm.png" alt="telegramm"></li>
+          <li class="me-3"><img src="img/icons/instagramm.png" alt="instagramm"></li>
+        </ul>   
+        <a href="" class="text-white fw-700">Пользовательское соглашение</a>
+        <a href="" class="text-white fw-700 mb-3">Политика конфедециальности</a>
+        <p class="commerce">По коммерческим вопросам писать на почту: <a class="commerce" href="mailto:info@unitourn.com">info@unitourn.com</a> 
+        </p>
+        <p class="commerce">Cyprus, Company Number HE41602 Registered address at: 4 Pavlou Nirvana, Alpha Tower, Office 13, 3021, Limassol, Cyprus 
+        </p>
+        <ul class="pay-item d-flex mt-3">
+          <li class="me-3"><img src="img/icons/PayPal.png" alt="PayPal"></li>
+          <li class="me-3"><img src="img/icons/MasterCard.png" alt="MasterCard"></li>
+          <li class="me-3"><img src="img/icons/visa.png" alt="visa"></li>
+        </ul> 
+        </div>
+      </section>
+    </footer>
+
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>
